@@ -17,7 +17,7 @@ declare let window: {
 };
 
 const MintButton = () => {
-  const contractAddress = '0x58e61C0ec26dCb0E3dCE5821563Ab5275d8782E9';
+  const contractAddress = '0x31568b2A19e7483e741D4D5CD750fa3F1ceE1ddc';
   const [fetching, setFetching] = useState<boolean>(false);
   const [txHash, setTxHash] = useState<string | null>(null);
   const [error, setError] = useState<string | undefined>(undefined);
